@@ -1,7 +1,6 @@
 package io.github.redstoneparadox.createindustrial.init;
 
 import io.github.redstoneparadox.createindustrial.CreateIndustrial;
-import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
@@ -13,7 +12,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
 public class BlocksInit {
-	private static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, CreateIndustrial.MODID);
+	private static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, CreateIndustrial.ID);
 
 	public static RegistryObject<Block> STEEL_BLOCK = BLOCKS.register(
 			"steel_block",
