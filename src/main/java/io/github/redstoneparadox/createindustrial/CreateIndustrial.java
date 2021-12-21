@@ -1,5 +1,6 @@
 package io.github.redstoneparadox.createindustrial;
 
+import io.github.redstoneparadox.createindustrial.init.BlocksInit;
 import io.github.redstoneparadox.createindustrial.init.ItemsInit;
 import net.minecraftforge.fml.common.Mod;
 import org.apache.logging.log4j.LogManager;
@@ -11,6 +12,7 @@ public class CreateIndustrial {
 	public static final String MODID = "createindustrial";
 
 	public CreateIndustrial() {
+		BlocksInit.register();
 		ItemsInit.register();
 	}
 }
