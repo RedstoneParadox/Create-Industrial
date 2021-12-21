@@ -14,6 +14,9 @@ public class ItemsInit {
 	public static RegistryObject<Item> STEEL_NUGGET = ITEMS.register("steel_nugget", () -> new Item(new Item.Properties()));
 	public static RegistryObject<Item> STEEL_SHEET = ITEMS.register("steel_sheet", () -> new Item(new Item.Properties()));
 
+	public static RegistryObject<Item> COAL_COKE = ITEMS.register("coal_coke", () -> new Item(new Item.Properties()));
+	public static RegistryObject<Item> QUICKLIME = ITEMS.register("quicklime", () -> new Item(new Item.Properties()));
+
 	public static void register() {
 		ITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());
 	}
