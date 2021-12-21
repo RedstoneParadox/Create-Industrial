@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "io.github.redstoneparadox.createindustrial.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "createindustrial.refmap.json",
+  "mixins": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "minVersion": "0.8"
+}
