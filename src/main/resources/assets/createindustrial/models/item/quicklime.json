@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "createindustrial:item/coal_coke"
+    "layer0": "createindustrial:item/quicklime"
   }
 }
