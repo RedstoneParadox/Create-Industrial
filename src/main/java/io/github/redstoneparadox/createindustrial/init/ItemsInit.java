@@ -12,6 +12,7 @@ public class ItemsInit {
 
 	public static RegistryObject<Item> STEEL_INGOT = ITEMS.register("steel_ingot", () -> new Item(new Item.Properties()));
 	public static RegistryObject<Item> STEEL_NUGGET = ITEMS.register("steel_nugget", () -> new Item(new Item.Properties()));
+	public static RegistryObject<Item> STEEL_SHEET = ITEMS.register("steel_sheet", () -> new Item(new Item.Properties()));
 
 	public static void register() {
 		ITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());
