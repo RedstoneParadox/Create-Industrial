@@ -1,0 +1,22 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:iron_ingot",
+      "count": 2
+    },
+    {
+      "item": "createindustrial:coal_coke"
+    },
+    {
+      "item": "createindustrial:coal_coke"
+    }
+  ],
+  "results": [
+    {
+      "item": "createindustrial:raw_steel",
+      "count": 2
+    }
+  ],
+  "heatRequirement": "superheated"
+}
